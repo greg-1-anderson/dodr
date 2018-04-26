@@ -1,6 +1,6 @@
 <?php
 
-namespace ExampleProject;
+namespace Dodr;
 
 use PHPUnit\Framework\TestCase;
 

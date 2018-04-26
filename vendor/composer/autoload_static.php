@@ -78,18 +78,14 @@ class ComposerStaticInit47e507a3167cc67f319c52f08e4813a2
             'Grasmash\\Expander\\' => 18,
             'Github\\' => 7,
         ),
-        'E' => 
-        array (
-            'ExampleProject\\' => 15,
-        ),
         'D' => 
         array (
+            'Dodr\\' => 5,
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
         ),
         'C' => 
         array (
-            'CustomizeProject\\' => 17,
             'Consolidation\\OutputFormatters\\' => 31,
             'Consolidation\\Log\\' => 18,
             'Consolidation\\Config\\' => 21,
@@ -102,8 +98,8 @@ class ComposerStaticInit47e507a3167cc67f319c52f08e4813a2
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'Webmozart\\Assert\\' => 
         array (
@@ -191,8 +187,8 @@ class ComposerStaticInit47e507a3167cc67f319c52f08e4813a2
         ),
         'Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/php-http/message-factory/src',
-            1 => __DIR__ . '/..' . '/php-http/message/src',
+            0 => __DIR__ . '/..' . '/php-http/message/src',
+            1 => __DIR__ . '/..' . '/php-http/message-factory/src',
         ),
         'Http\\Discovery\\' => 
         array (
@@ -238,7 +234,7 @@ class ComposerStaticInit47e507a3167cc67f319c52f08e4813a2
         array (
             0 => __DIR__ . '/..' . '/knplabs/github-api/lib/Github',
         ),
-        'ExampleProject\\' => 
+        'Dodr\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
             1 => __DIR__ . '/../..' . '/tests/src',
@@ -250,10 +246,6 @@ class ComposerStaticInit47e507a3167cc67f319c52f08e4813a2
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
-        ),
-        'CustomizeProject\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/customize',
         ),
         'Consolidation\\OutputFormatters\\' => 
         array (
@@ -434,7 +426,6 @@ class ComposerStaticInit47e507a3167cc67f319c52f08e4813a2
         'Consolidation\\OutputFormatters\\Validate\\ValidDataTypesInterface' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Validate/ValidDataTypesInterface.php',
         'Consolidation\\OutputFormatters\\Validate\\ValidDataTypesTrait' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Validate/ValidDataTypesTrait.php',
         'Consolidation\\OutputFormatters\\Validate\\ValidationInterface' => __DIR__ . '/..' . '/consolidation/output-formatters/src/Validate/ValidationInterface.php',
-        'CustomizeProject\\Customizer' => __DIR__ . '/../..' . '/customize/Customizer.php',
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
         'DeepCopy\\Exception\\CloneException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
         'DeepCopy\\Exception\\PropertyException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',
@@ -466,8 +457,8 @@ class ComposerStaticInit47e507a3167cc67f319c52f08e4813a2
         'Doctrine\\Instantiator\\Exception\\UnexpectedValueException' => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator/Exception/UnexpectedValueException.php',
         'Doctrine\\Instantiator\\Instantiator' => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator/Instantiator.php',
         'Doctrine\\Instantiator\\InstantiatorInterface' => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator/InstantiatorInterface.php',
-        'ExampleProject\\Cli\\ExampleCommands' => __DIR__ . '/../..' . '/src/cli/ExampleCommands.php',
-        'ExampleProject\\Example' => __DIR__ . '/../..' . '/src/Example.php',
+        'Dodr\\Cli\\ExampleCommands' => __DIR__ . '/../..' . '/src/cli/ExampleCommands.php',
+        'Dodr\\Example' => __DIR__ . '/../..' . '/src/Example.php',
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',
